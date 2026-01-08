@@ -1,0 +1,127 @@
+body {
+    background-color: white;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aquamarine;
+    background-image: url(https://mcchicago.mtgfestivals.com/content/dam/sitebuilder/rna/mtgfestivals/magiccon-chicago/2025/images/framework/mc-chicago-2025-dungeons-and-dragons-bg.jpg/_jcr_content/renditions/original./315228031/mc-chicago-2025-dungeons-and-dragons-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: left;
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: darkred;
+    text-shadow: black 3px 6px 6px;
+    margin: 0;
+}
+
+main {
+    background-color: burlywood;
+    min-height: 580px;
+    width: 100%;
+    padding: 20px;
+    font-weight: 900;
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: goldenrod;
+    min-height: 200px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    display: flex;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+.bocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.left, .right {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.left {
+    background-color: salmon;
+    font-size:  20px;
+}
+
+.right {
+    background-color: coral;
+    font-size: 20px;
+    
+}
+.book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.f_left {
+    width: 20%;
+    float: left;
+    
+}
+.f_right {
+    width: 40%;
+    float: right;
+    text-align: left;
+    padding: 20px;
+}
+.f_right img{
+    width: 100px;
+}
+.f_right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.down.fR{
+    width: 20%;
+    font-size: 20px;
+}
+.down.fL{
+    width: 20%;
+    font-size: 20px;
+}
